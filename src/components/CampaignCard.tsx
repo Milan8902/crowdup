@@ -87,7 +87,7 @@ const CampaignCard = ({data, showActions}: IProps) => {
 
                     <Flex justify="space-between">
                         <Text><b>{amountRaised}</b> raised</Text>
-                        <Text><b>{contributors}</b> donations</Text>
+                        <Text><b>{contributors}</b> donation</Text>
                     </Flex>
 
                     {/*{showActions && <Button>Donate Now</Button>}*/}
