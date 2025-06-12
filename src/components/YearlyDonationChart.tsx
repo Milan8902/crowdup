@@ -36,7 +36,7 @@ const series = [
 const options: ApexOptions = {
     chart: {
         type: 'bar',
-        height: 350,
+        height: 340,
         stacked: true,
         toolbar: {
             show: true
@@ -46,7 +46,7 @@ const options: ApexOptions = {
         }
     },
     responsive: [{
-        breakpoint: 480,
+        breakpoint: 430,
         options: {
             legend: {
                 position: 'bottom',
@@ -58,7 +58,7 @@ const options: ApexOptions = {
     plotOptions: {
         bar: {
             horizontal: false,
-            borderRadius: 10,
+            borderRadius: 9,
             dataLabels: {
                 total: {
                     enabled: true,
