@@ -18,7 +18,7 @@ const UserCard = ({...others}: IProps) => {
                     </Text>
 
                     <Button variant="light" leftIcon={<IconSend size={18}/>} fullWidth>
-                        Send message
+                        Send messa
                     </Button>
                 </Stack>
             </Flex>
