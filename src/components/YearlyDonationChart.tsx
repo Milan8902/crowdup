@@ -36,7 +36,7 @@ const series = [
 const options: ApexOptions = {
     chart: {
         type: 'bar',
-        height: 340,
+        height: 350,
         stacked: true,
         toolbar: {
             show: true
@@ -50,7 +50,7 @@ const options: ApexOptions = {
         options: {
             legend: {
                 position: 'bottom',
-                offsetX: -10,
+                offsetX: -9,
                 offsetY: 0
             }
         }
