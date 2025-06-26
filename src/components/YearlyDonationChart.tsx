@@ -58,13 +58,13 @@ const options: ApexOptions = {
     plotOptions: {
         bar: {
             horizontal: false,
-            borderRadius: 9,
+            borderRadius: 11,
             dataLabels: {
                 total: {
                     enabled: true,
                     style: {
                         fontSize: '13px',
-                        fontWeight: 900
+                        fontWeight: 800
                     }
                 }
             }
